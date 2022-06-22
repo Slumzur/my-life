@@ -1,0 +1,110 @@
+.time-piker-wrapper {
+  position: relative;
+
+  &__input {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #595959;
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+    background-color: #F5F4F4;
+    border: 1px solid #DADADA;
+    border-radius: 8px;
+    cursor: pointer;
+    background-image: url("../../img/clock-icon.svg");
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+
+    &.content {
+      background-color: #ffffff;
+      border: 1px solid #848D94;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+      color: #3C3C44;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.time-piker-popup {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  border: 1px solid #848D94;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 16px;
+  box-sizing: border-box;
+  z-index: 10;
+  margin-top: -1px;
+
+  & > div {
+    color: #595959;
+  }
+
+  &__time-btn {
+    border: 1px solid #848D94;
+    width: 53px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    line-height: 21px;
+    cursor: pointer;
+
+    &.disabled {
+      cursor: not-allowed;
+      background: #F1F4F8;
+      color: #848D94;
+      border: 1px solid transparent;
+
+      &:hover {
+        outline: none;
+        border: 1px solid transparent;
+      }
+    }
+
+    &:hover {
+      border: 1px solid #B30064;
+      outline: 1px solid #B30064;
+    }
+
+    &.active {
+      background-color: #B30064;
+      color: #FFFFFF;
+      border: 1px solid #B30064;
+
+      &:hover {
+        outline: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .time-piker-wrapper {
+    &__input {
+      background-color: #FFFFFF;
+    }
+
+    &__input:focus {
+      border: 1px solid #262626;
+    }
+  }
+  .time-piker-popup {
+    padding: 14px;
+  }
+}

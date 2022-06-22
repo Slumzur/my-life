@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.js": "./static/js/main.d7496c89.chunk.js",
+    "main.js.map": "./static/js/main.d7496c89.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.f8962c60.js",
+    "runtime-main.js.map": "./static/js/runtime-main.f8962c60.js.map",
+    "static/js/2.56d2232a.chunk.js": "./static/js/2.56d2232a.chunk.js",
+    "static/js/2.56d2232a.chunk.js.map": "./static/js/2.56d2232a.chunk.js.map",
+    "index.html": "./index.html",
+    "static/js/2.56d2232a.chunk.js.LICENSE.txt": "./static/js/2.56d2232a.chunk.js.LICENSE.txt",
+    "static/media/Logo.4d26eff6.svg": "./static/media/Logo.4d26eff6.svg",
+    "static/media/app-store-icon.4825e1d4.svg": "./static/media/app-store-icon.4825e1d4.svg",
+    "static/media/calendarIcon.77102fbd.svg": "./static/media/calendarIcon.77102fbd.svg",
+    "static/media/card-img.6ff97cb9.png": "./static/media/card-img.6ff97cb9.png",
+    "static/media/check-mark-services.295a28dc.svg": "./static/media/check-mark-services.295a28dc.svg",
+    "static/media/check-mark.ff016c70.svg": "./static/media/check-mark.ff016c70.svg",
+    "static/media/clockIcon.6fd0aa60.svg": "./static/media/clockIcon.6fd0aa60.svg",
+    "static/media/dash-line.ef006a98.svg": "./static/media/dash-line.ef006a98.svg",
+    "static/media/google-play-icon.6033e91f.svg": "./static/media/google-play-icon.6033e91f.svg",
+    "static/media/huawei-store-icon.ea576c10.svg": "./static/media/huawei-store-icon.ea576c10.svg",
+    "static/media/locationIcon.6751abb4.svg": "./static/media/locationIcon.6751abb4.svg",
+    "static/media/phones-img.fe3b304e.png": "./static/media/phones-img.fe3b304e.png",
+    "static/media/right-arrow.789f3abe.svg": "./static/media/right-arrow.789f3abe.svg",
+    "static/media/ubrr-logo-short.680f6093.svg": "./static/media/ubrr-logo-short.680f6093.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8962c60.js",
+    "static/js/2.56d2232a.chunk.js",
+    "static/js/main.d7496c89.chunk.js"
+  ]
+}

@@ -1,0 +1,22 @@
+.city-select-button {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #595959;
+    margin-bottom: 8px;
+}
+
+.city-select-button:hover {
+    color: #CC163F;
+}
+
+@media (min-width: 768px) {
+    .city-select-button {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+}
+
+/*# sourceMappingURL=CitySelectButton.css.map */
